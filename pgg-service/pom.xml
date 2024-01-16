@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pgg-service</artifactId>
+    <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
     <modules>
@@ -38,6 +39,12 @@
         <dependency>
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-mybatis</artifactId>
+        </dependency>
+
+        <!-- gitegg swagger2-knife4j -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-swagger</artifactId>
         </dependency>
     </dependencies>
 
