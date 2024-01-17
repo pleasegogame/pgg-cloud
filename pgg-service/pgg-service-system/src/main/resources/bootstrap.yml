@@ -10,3 +10,8 @@ spring:
         file-extension: yaml
         group: DEFAULT_GROUP
         enabled: true
+
+#Ribbon配置
+#ribbon:
+#  #负载均衡策略
+#  NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
