@@ -52,6 +52,12 @@
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-boot</artifactId>
         </dependency>
+
+        <!-- pgg Spring Cloud自定义及扩展 -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-cloud</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

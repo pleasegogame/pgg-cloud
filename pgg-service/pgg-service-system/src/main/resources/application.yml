@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: pgg-service-system
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.43.204.168:8848
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver

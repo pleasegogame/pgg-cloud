@@ -35,9 +35,9 @@
         <!-- GitEgg项目统一设置版本号 -->
         <gitegg.project.version>1.0-SNAPSHOT</gitegg.project.version>
         <!-- SpringBoot版本号 -->
-        <spring.boot.version>2.3.3.RELEASE</spring.boot.version>
+        <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
         <!-- SpringCloud版本号 -->
-        <spring.cloud.version>Hoxton.SR8</spring.cloud.version>
+        <spring.cloud.version>Hoxton.SR12</spring.cloud.version>
 
         <pgg.project.version>1.0-SNAPSHOT</pgg.project.version>
     </properties>
