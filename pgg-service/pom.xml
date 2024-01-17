@@ -30,21 +30,27 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- gitegg数据库驱动及连接池 -->
+        <!-- pgg 数据库驱动及连接池 -->
         <dependency>
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-db</artifactId>
         </dependency>
-        <!-- gitegg mybatis-plus -->
+        <!-- pgg mybatis-plus -->
         <dependency>
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-mybatis</artifactId>
         </dependency>
 
-        <!-- gitegg swagger2-knife4j -->
+        <!-- pgg swagger2-knife4j -->
         <dependency>
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-swagger</artifactId>
+        </dependency>
+
+        <!-- pgg boot -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-boot</artifactId>
         </dependency>
     </dependencies>
 

@@ -1,5 +1,6 @@
 package com.pgg.service.system.controller;
 
+import com.pgg.platform.boot.common.base.Result;
 import com.pgg.service.system.service.ISystemService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,5 +27,11 @@ public class SystemController {
     @GetMapping(value = "page")
     public Object page() {
         return systemService.page();
+    }
+
+    @GetMapping(value = "exception")
+    @ApiOperation(value = "自定义异常及返回测试接口")
+    public Result<String> exception() {
+        return Result.data(systemService.exception(), null);
     }
 }

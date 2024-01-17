@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan(basePackages = "com.pgg")
 @MapperScan("com.pgg.*.*.mapper")
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.pgg"})
 public class PggSystemApplication {
 
     public static void main(String[] args) {
