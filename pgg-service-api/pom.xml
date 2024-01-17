@@ -11,6 +11,7 @@
 
     <artifactId>pgg-service-api</artifactId>
     <name>${project.artifactId}</name>
+    <version>${project.parent.version}</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -18,9 +19,21 @@
         <module>pgg-service-system-api</module>
     </modules>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
-
+    <dependencies>
+        <!-- gitegg Spring Boot自定义及扩展 -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-boot</artifactId>
+        </dependency>
+        <!-- gitegg Spring Cloud自定义及扩展 -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-cloud</artifactId>
+        </dependency>
+        <!-- gitegg swagger2-knife4j -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-swagger</artifactId>
+        </dependency>
+    </dependencies>
 </project>
