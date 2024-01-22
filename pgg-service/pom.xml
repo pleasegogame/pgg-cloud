@@ -58,6 +58,12 @@
             <groupId>com.pgg.platform</groupId>
             <artifactId>pgg-platform-cloud</artifactId>
         </dependency>
+
+        <!-- pgg Spring redis -->
+        <dependency>
+            <groupId>com.pgg.platform</groupId>
+            <artifactId>pgg-platform-redis</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
