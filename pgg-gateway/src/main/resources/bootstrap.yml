@@ -22,4 +22,12 @@ spring:
           predicates:
             - Path=/pgg-system/**
           filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+        - id: pgg-service-base
+          uri: lb://pgg-service-base
+          predicates:
+            - Path=/pgg-base/**
+          filters:
+            - SwaggerHeaderFilter
             - StripPrefix=1
