@@ -72,4 +72,10 @@ public class SystemController {
     public Result<String> sentinelProtected() {
         return Result.data("访问的是限流测试接口");
     }
+
+    @ApiOperation(value = "Gateway路由转发测试")
+    @GetMapping(value = "gateway/forward")
+    public Result gatewayForward() {
+        return Result.success("gitegg-service-system测试数据");
+    }
 }
