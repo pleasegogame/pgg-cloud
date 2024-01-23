@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableDiscoveryClient
 @ComponentScan(basePackages = "com.pgg")
-@MapperScan("com.pgg.*.*.mapper")
-@SpringBootApplication(scanBasePackages = {"com.pgg"})
+@MapperScan(basePackages  = {"com.pgg.**.mapper.**"})
 @EnableCaching
+@SpringBootApplication
 public class PggSystemApplication {
 
     public static void main(String[] args) {

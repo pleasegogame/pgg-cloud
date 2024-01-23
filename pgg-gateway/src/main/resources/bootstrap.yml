@@ -31,3 +31,5 @@ spring:
           filters:
             - SwaggerHeaderFilter
             - StripPrefix=1
+tenant:
+  enable: true
